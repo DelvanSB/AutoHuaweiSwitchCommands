@@ -8,7 +8,7 @@ portas "tronco" e também inseri-las nas configurações de anel com
 protocolo ERPS.
 (se não usar esse protocolo, basta isolar trechos do codigo que tratam disso).
 
-Este script, em expecifico, conecta-se aos switches listados previamente
+Este script, em expecifico, conecta-se aos switches, via ssh, listados previamente
 identifica o nome do switch e o armazena numa variável. Em sequência,
 "pergunta" ( incluir 'i', excluir 'e', ou sair 's' )
 Dependendo da decisão, a rotina solicita a(s) vlan(s) ou escopos de vlans.
