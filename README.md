@@ -28,5 +28,6 @@ This script, in particular, connects to the switches listed previously, identifi
 Note: There are loops that check the characters and the answers. If no valid information is entered, the process returns to the 'input' state.
 
 
+
 # Att, 
 # Delvan's Braga.
