@@ -17,5 +17,16 @@ Obs.:
 Há loops que verificam os caracteres e as respostas. Caso não sejam
 inseridas informações válidas, o processo volta ao estado de 'input'.
 
+----------------------------------------------------------------------------
+
+Script created to automate batch commands, sequentially, on various Huawei switches, using IP lists.
+
+This script was developed to add/remove and manipulate vlans on "trunk" ports and also insert them into ring configurations using the ERPS protocol. (If you don't use this protocol, just isolate parts of the code that deal with it).
+
+This script, in particular, connects to the switches listed previously, identifies the switch name and stores it in a variable. Then it "asks" (include 'i', exclude 'e', or exit 's'). Depending on the decision, the routine requests the vlan(s) or vlan scopes.
+
+Note: There are loops that check the characters and the answers. If no valid information is entered, the process returns to the 'input' state.
+
+
 # Att, 
 # Delvan's Braga.
